@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@300;400;600;700&display=swap");
+body {
+  margin: 0 auto !important;
+  max-width: 1400px;
+  box-shadow: 0 0 5px 5px #cccccc;
+  background: black;
+  color: #ffffff;
+}
+
+header {
+  height: 600px;
+  background: url("../img/banner_bg.jpg");
+}
+
+.games__container {
+  margin: 0 auto;
+  width: 960px;
+}
+.games__container__head {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.games__container__head h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-right: 40px;
+}
+.games__container__head p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #525353;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+.games__container__head p svg {
+  fill: #525353;
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+}
+.games__container__content {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.games__container__content__item:nth-child(1) {
+  background: url("../img/games-1.jpg");
+}
+.games__container__content__item:nth-child(2) {
+  background: url("../img/games-2.jpg");
+}
+.games__container__content__item:nth-child(3) {
+  background: url("../img/games-3.jpg");
+}
+.games__container__content__item:nth-child(4) {
+  background: url("../img/games-4.jpg");
+}
+.games__container__content__item {
+  width: 230px;
+  height: 360px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.games__container__content__item__desc {
+  padding: 220px 15px 15px;
+}
+.games__container__content__item__desc div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.games__container__content__item__desc div div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  width: 43px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.games__container__content__item__desc h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+}
+.games__container__content__item__desc p {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.games__container__content__item__desc p + p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.games__container__content__item__desc p {
+  color: #525353;
+}
+.games__container__content__item__desc span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.games__container__content__item__desc svg {
+  width: 20px;
+  height: 20px;
+  fill: #525353;
+  margin: 0 3px;
+}
+
+/*# sourceMappingURL=main.css.map */
